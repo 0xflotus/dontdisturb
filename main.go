@@ -14,7 +14,7 @@ var min int
 
 func main() {
 
-	// Make sure we enable Notifitcations when the program exits
+	// Make sure we enable Notifications when the program exits
 	defer disableDND()
 	flag.IntVar(&min, "t", 15, "Time in minutes for 'Do not disturb' mode")
 	flag.Parse()
